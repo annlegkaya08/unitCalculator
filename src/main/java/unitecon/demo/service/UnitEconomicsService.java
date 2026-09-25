@@ -6,7 +6,7 @@ import unitecon.demo.dto.CalculationResponseDto;
 
 public interface UnitEconomicsService {
 
-    @Cacheable(key = "#request.hashCode()")
-    CalculationResponseDto calculate(CalculationRequestDto request);
+	@Cacheable(key = "#request.hashCode()")
+	CalculationResponseDto calculate(CalculationRequestDto request);
 
 }

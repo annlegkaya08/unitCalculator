@@ -13,11 +13,11 @@ import lombok.Data;
 
 public class CalculationResponseDto {
 
-    private Double cac;
-    private Double ltv;
-    private Double romi;
-    private Double marginPercent;
-    private Integer BEPoint;
-    private String status;
+	private Double cac;
+	private Double ltv;
+	private Double romi;
+	private Double marginPercent;
+	private Integer BEPoint;
+	private String status;
 
 }
