@@ -219,16 +219,12 @@ If `contributionMargin ≤ 0`, BEP returns `Integer.MAX_VALUE` (unreachable brea
 
 ## Testing
 
-> Tests will be added in a future iteration.
-
-Planned coverage:
-
 - Unit tests for `UnitEconomicsServiceImpl` (all formulas + edge cases)
 - Web layer tests for `UnitEconomicsController` using `MockMvc`
 - Validation tests via `spring-boot-starter-validation-test`
 - Cache behavior tests via `spring-boot-starter-cache-test`
 
-Run tests (once added):
+Run tests:
 
 ```bash
 mvn test
@@ -244,7 +240,6 @@ For questions or support, please open an issue in the repository.
 
 ## Notes / TODO
 
-- [ ] Add unit and integration tests
 - [ ] Add a `LICENSE` file
 - [ ] Add Dockerfile / docker-compose for containerized deployment
 - [ ] Add CI pipeline (GitHub Actions / GitLab CI)
